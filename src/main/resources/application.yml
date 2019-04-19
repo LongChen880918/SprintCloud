@@ -1,12 +1,16 @@
 mybatis:
   config-location: classpath:mybatis/mybatis-config.xml        # mybatis\u914D\u7F6E\u6587\u4EF6\u6240\u5728\u8DEF\u5F84
+<<<<<<< HEAD
   type-aliases-package: com.wdyf.entity                     # \u6240\u6709Entity\u522B\u540D\u7C7B\u6240\u5728\u5305
+=======
+  type-aliases-package: com.huangkai.demo.entity                     # \u6240\u6709Entity\u522B\u540D\u7C7B\u6240\u5728\u5305
+>>>>>>> origin/master
   mapper-locations:
     - classpath:mybatis/mapper/*.xml
 
 spring:
   application:
-    name: project-stan
+    name: project-demo
   redis:
     host: 127.0.0.1      # Redis\u670D\u52A1\u5668\u5730\u5740
     port: 6379
